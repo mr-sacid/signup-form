@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="example.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="sign">
+         <form action="post">
+        <h1>Sign Up Form</h1>
+        <div class="first-name">
+            <label for="first">First Name</label>
+            <input type="text" name="first" id="first" placeholder="yussuf">
+        </div>
+        <div class="last-name">
+            <label for="last">Last name</label>
+            <input type="text" name="last" id="last" placeholder="abdi">
+        </div>
+        <div class="mail">
+            <label for="address">Email address</label>
+            <input type="email" name="address" id="address" placeholder="xyz@gmail.com">
+        </div>
+        <div class="birth-city">
+            <label for="city">City of birth</label>
+            <select name="city" id="city">
+                <option value="Garissa">Garissa</option>
+                <option value="Wajir">Wajir</option>
+                <option value="Mandera">Mandera</option>
+                <option value="Nairobi">Nairobi</option>
+                <option value="Mombasa">Mombasa</option>
+            </select>
+        </div>
+
+        <div class="date">
+            <label for="start">Date of birth</label>
+            <input type="date" name="start" id="start"  min="2000-01-01" max="2006-12-31">
+        </div>
+        <div class="profile">
+            <label for="profile">Choose a profile picture</label>
+            <input type="file" name="profile" id="profile" accept="image/pnf, image/jpeg">
+        </div>
+        <button>Submit</button>
+
+    </form>
+    </section>
+   
+</body>
+</html>

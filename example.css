@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+.sign{
+    background-color: coral;
+    
+    
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    color: coral;
+    letter-spacing: -0.1rem;
+    margin-top: 2.5rem;
+}
+
+form label{
+    display: block;
+    text-align: start;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+form input{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 80%;
+   
+}
+
+#first,#last,#address{
+     border: none;
+    border-radius: 20px;
+    background-color: rgba(220, 198, 190, .5);
+    padding: 0.5rem 1rem;
+}
+
+#first:focus,#last:focus,#address:focus{
+    outline: none;
+    background-color: rgba(220, 198, 190, .2);
+}
+
+form select{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+#city{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(220, 198, 190, .5);
+}
+
+#city:focus{
+    outline: none;
+    background-color: rgba(220, 198, 190, .2);
+}
+
+#start{
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(220, 198, 190, .5);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+#start:focus{
+    outline: none;
+    background-color: rgba(220, 198, 190, .2);
+}
+
+
+button{
+    width: 50%;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 20px;
+    border: none;
+    background-color: coral;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.15rem;
+
+    
+}
+
+@media screen and (max-width:700px){
+    form{
+        width: 90%;
+    }
+    button{
+        margin-left: 6rem;
+    }
+    #first,#last,#address{
+        padding: 0.75rem 1rem;
+    }
+}
